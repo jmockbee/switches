@@ -14,21 +14,51 @@ public class Main {
 //            System.out.println("was not 1 or 2 ");
 //        }
 //
-        int switchValue =3;
-        switch (switchValue) {
-            case 1:
-                System.out.println("value was 1");
+//        int switchValue =4;
+//        switch (switchValue) {
+//            case 1:
+//                System.out.println("value was 1");
+//                break;
+//
+//
+//            case 2:
+//                System.out.println("value was 2");
+//                break;
+//
+//            case 3: case 4: case 5:
+//                System.out.println("was a 3 , 4 or 5");
+//                System.out.println("Actually was a "+ switchValue);
+//                break;
+//
+//
+//                default:
+//                    System.out.println("was not 1 or 2 ");
+//                    break;
+//        }
+
+        char switchchar = 'c';
+
+        switch(switchchar){
+            case 'a': case 'b': case 'c': case 'd': case 'e':
+                System.out.println("it was a,b,c,d,e");
+                System.out.println("actually it was " + switchchar );
                 break;
-
-
-            case 2:
-                System.out.println("value was 2");
+            default:
+                System.out.println("not found ");
                 break;
+        }
 
+        String month= "jaNuary";
+        switch (month.toLowerCase()){
+            case "january":
+                System.out.println("Jan");
+                break;
+            case "june":
+                System.out.println("june");
+                break;
                 default:
-                    System.out.println("was not 1 or 2 ");
-                    break;
-
+                    System.out.println("not sure");
         }
     }
+
 }
